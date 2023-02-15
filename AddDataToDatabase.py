@@ -7,6 +7,8 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': "https://face-attendance-project-b984e-default-rtdb.firebaseio.com/"
 })
 
+print("Adding data to database...")
+
 ref = db.reference('Students')
 
 data = {
@@ -20,7 +22,7 @@ data = {
             "year": 4,
             "last_attendance_time": "2022-12-11 00:54:34"
         },
-        "85741":
+        "852741":
         {
             "name": "Emily Blunt",
             "major": "Economics",
@@ -39,9 +41,41 @@ data = {
             "standing": "G",
             "year": 2,
             "last_attendance_time": "2022-12-11 00:54:34"
+        },
+        "786453":
+        {
+            "name": "Bayram Alper KILIC",
+            "major": "AI",
+            "starting_year": 2020,
+            "total_attendance": 7,
+            "standing": "G",
+            "year": 2,
+            "last_attendance_time": "2022-12-11 00:54:34"
+        },
+        "123456":
+        {
+            "name": "Ahmet Erturkmen",
+            "major": "Medicine",
+            "starting_year": 2020,
+            "total_attendance": 12,
+            "standing": "G",
+            "year": 3,
+            "last_attendance_time": "2022-12-11 00:54:34"
+        },
+        "198346":
+        {
+            "name": "Abdulkadir Sazli",
+            "major": "Prep School",
+            "starting_year": 2020,
+            "total_attendance": 12,
+            "standing": "G",
+            "year": 1,
+            "last_attendance_time": "2022-12-11 00:54:34"
         }
 }
 
 
 for key, value in data.items():
     ref.child(key).set(value)
+
+print("Data added to database")
