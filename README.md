@@ -340,8 +340,8 @@ Creating a project like the Face Recognition with Realtime Database requires a l
 [stars-url]: https://github.com/alperrkilic/Face-Recognition---Realtime-Database--Improved-Version-/stargazers
 [issues-shield]: https://img.shields.io/github/issues/alperrkilic/Face-Recognition---Realtime-Database--Improved-Version-.svg?style=for-the-badge
 [issues-url]: https://github.com/alperrkilic/Face-Recognition---Realtime-Database--Improved-Version-/issues
-[license-shield]: https://img.shields.io/github/license/alperrkilic/Parking-Space-Counter-Project.svg?style=for-the-badge
-[license-url]: https://github.com/alperrkilic/Parking-Space-Counter-Project/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/alperrkilic/Face-Recognition---Realtime-Database--Improved-Version-.svg?style=for-the-badge
+[license-url]: https://github.com/alperrkilic/Face-Recognition---Realtime-Database--Improved-Version-/blob/master/LICENSE.txt
 <!-- Built with and Social Media -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bayram-alper-kilic/
